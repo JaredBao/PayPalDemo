@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		813335131EF794830093393C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 813335121EF794830093393C /* main.m */; };
+		813335161EF794830093393C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 813335151EF794830093393C /* AppDelegate.m */; };
+		813335191EF794830093393C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 813335181EF794830093393C /* ViewController.m */; };
+		8133351C1EF794830093393C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8133351A1EF794830093393C /* Main.storyboard */; };
+		8133351E1EF794830093393C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8133351D1EF794830093393C /* Assets.xcassets */; };
+		813335211EF794830093393C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8133351F1EF794830093393C /* LaunchScreen.storyboard */; };
+		8133352C1EF794830093393C /* PayPalTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8133352B1EF794830093393C /* PayPalTestTests.m */; };
+		813335371EF794830093393C /* PayPalTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 813335361EF794830093393C /* PayPalTestUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		813335281EF794830093393C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 813335061EF794830093393C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8133350D1EF794830093393C;
+			remoteInfo = PayPalTest;
+		};
+		813335331EF794830093393C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 813335061EF794830093393C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8133350D1EF794830093393C;
+			remoteInfo = PayPalTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8133350E1EF794830093393C /* PayPalTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayPalTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		813335121EF794830093393C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		813335141EF794830093393C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		813335151EF794830093393C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		813335171EF794830093393C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		813335181EF794830093393C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8133351B1EF794830093393C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8133351D1EF794830093393C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		813335201EF794830093393C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		813335221EF794830093393C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		813335271EF794830093393C /* PayPalTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayPalTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8133352B1EF794830093393C /* PayPalTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayPalTestTests.m; sourceTree = "<group>"; };
+		8133352D1EF794830093393C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		813335321EF794830093393C /* PayPalTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayPalTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		813335361EF794830093393C /* PayPalTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayPalTestUITests.m; sourceTree = "<group>"; };
+		813335381EF794830093393C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8133350B1EF794830093393C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		813335241EF794830093393C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8133352F1EF794830093393C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		813335051EF794830093393C = {
+			isa = PBXGroup;
+			children = (
+				813335101EF794830093393C /* PayPalTest */,
+				8133352A1EF794830093393C /* PayPalTestTests */,
+				813335351EF794830093393C /* PayPalTestUITests */,
+				8133350F1EF794830093393C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8133350F1EF794830093393C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8133350E1EF794830093393C /* PayPalTest.app */,
+				813335271EF794830093393C /* PayPalTestTests.xctest */,
+				813335321EF794830093393C /* PayPalTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		813335101EF794830093393C /* PayPalTest */ = {
+			isa = PBXGroup;
+			children = (
+				813335141EF794830093393C /* AppDelegate.h */,
+				813335151EF794830093393C /* AppDelegate.m */,
+				813335171EF794830093393C /* ViewController.h */,
+				813335181EF794830093393C /* ViewController.m */,
+				8133351A1EF794830093393C /* Main.storyboard */,
+				8133351D1EF794830093393C /* Assets.xcassets */,
+				8133351F1EF794830093393C /* LaunchScreen.storyboard */,
+				813335221EF794830093393C /* Info.plist */,
+				813335111EF794830093393C /* Supporting Files */,
+			);
+			path = PayPalTest;
+			sourceTree = "<group>";
+		};
+		813335111EF794830093393C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				813335121EF794830093393C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8133352A1EF794830093393C /* PayPalTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				8133352B1EF794830093393C /* PayPalTestTests.m */,
+				8133352D1EF794830093393C /* Info.plist */,
+			);
+			path = PayPalTestTests;
+			sourceTree = "<group>";
+		};
+		813335351EF794830093393C /* PayPalTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				813335361EF794830093393C /* PayPalTestUITests.m */,
+				813335381EF794830093393C /* Info.plist */,
+			);
+			path = PayPalTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8133350D1EF794830093393C /* PayPalTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8133353B1EF794830093393C /* Build configuration list for PBXNativeTarget "PayPalTest" */;
+			buildPhases = (
+				8133350A1EF794830093393C /* Sources */,
+				8133350B1EF794830093393C /* Frameworks */,
+				8133350C1EF794830093393C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayPalTest;
+			productName = PayPalTest;
+			productReference = 8133350E1EF794830093393C /* PayPalTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		813335261EF794830093393C /* PayPalTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8133353E1EF794830093393C /* Build configuration list for PBXNativeTarget "PayPalTestTests" */;
+			buildPhases = (
+				813335231EF794830093393C /* Sources */,
+				813335241EF794830093393C /* Frameworks */,
+				813335251EF794830093393C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				813335291EF794830093393C /* PBXTargetDependency */,
+			);
+			name = PayPalTestTests;
+			productName = PayPalTestTests;
+			productReference = 813335271EF794830093393C /* PayPalTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		813335311EF794830093393C /* PayPalTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 813335411EF794830093393C /* Build configuration list for PBXNativeTarget "PayPalTestUITests" */;
+			buildPhases = (
+				8133352E1EF794830093393C /* Sources */,
+				8133352F1EF794830093393C /* Frameworks */,
+				813335301EF794830093393C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				813335341EF794830093393C /* PBXTargetDependency */,
+			);
+			name = PayPalTestUITests;
+			productName = PayPalTestUITests;
+			productReference = 813335321EF794830093393C /* PayPalTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		813335061EF794830093393C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Michael;
+				TargetAttributes = {
+					8133350D1EF794830093393C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Z3ZH6ZLC7N;
+						ProvisioningStyle = Automatic;
+					};
+					813335261EF794830093393C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Z3ZH6ZLC7N;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8133350D1EF794830093393C;
+					};
+					813335311EF794830093393C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Z3ZH6ZLC7N;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8133350D1EF794830093393C;
+					};
+				};
+			};
+			buildConfigurationList = 813335091EF794830093393C /* Build configuration list for PBXProject "PayPalTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 813335051EF794830093393C;
+			productRefGroup = 8133350F1EF794830093393C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8133350D1EF794830093393C /* PayPalTest */,
+				813335261EF794830093393C /* PayPalTestTests */,
+				813335311EF794830093393C /* PayPalTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8133350C1EF794830093393C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				813335211EF794830093393C /* LaunchScreen.storyboard in Resources */,
+				8133351E1EF794830093393C /* Assets.xcassets in Resources */,
+				8133351C1EF794830093393C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		813335251EF794830093393C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		813335301EF794830093393C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8133350A1EF794830093393C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				813335191EF794830093393C /* ViewController.m in Sources */,
+				813335161EF794830093393C /* AppDelegate.m in Sources */,
+				813335131EF794830093393C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		813335231EF794830093393C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8133352C1EF794830093393C /* PayPalTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8133352E1EF794830093393C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				813335371EF794830093393C /* PayPalTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		813335291EF794830093393C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8133350D1EF794830093393C /* PayPalTest */;
+			targetProxy = 813335281EF794830093393C /* PBXContainerItemProxy */;
+		};
+		813335341EF794830093393C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8133350D1EF794830093393C /* PayPalTest */;
+			targetProxy = 813335331EF794830093393C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8133351A1EF794830093393C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8133351B1EF794830093393C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8133351F1EF794830093393C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				813335201EF794830093393C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		813335391EF794830093393C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8133353A1EF794830093393C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8133353C1EF794830093393C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z3ZH6ZLC7N;
+				INFOPLIST_FILE = PayPalTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.michael.PayPalTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8133353D1EF794830093393C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z3ZH6ZLC7N;
+				INFOPLIST_FILE = PayPalTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.michael.PayPalTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8133353F1EF794830093393C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Z3ZH6ZLC7N;
+				INFOPLIST_FILE = PayPalTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.michael.PayPalTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayPalTest.app/PayPalTest";
+			};
+			name = Debug;
+		};
+		813335401EF794830093393C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Z3ZH6ZLC7N;
+				INFOPLIST_FILE = PayPalTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.michael.PayPalTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayPalTest.app/PayPalTest";
+			};
+			name = Release;
+		};
+		813335421EF794830093393C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Z3ZH6ZLC7N;
+				INFOPLIST_FILE = PayPalTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.michael.PayPalTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PayPalTest;
+			};
+			name = Debug;
+		};
+		813335431EF794830093393C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = Z3ZH6ZLC7N;
+				INFOPLIST_FILE = PayPalTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.michael.PayPalTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PayPalTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		813335091EF794830093393C /* Build configuration list for PBXProject "PayPalTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				813335391EF794830093393C /* Debug */,
+				8133353A1EF794830093393C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8133353B1EF794830093393C /* Build configuration list for PBXNativeTarget "PayPalTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8133353C1EF794830093393C /* Debug */,
+				8133353D1EF794830093393C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8133353E1EF794830093393C /* Build configuration list for PBXNativeTarget "PayPalTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8133353F1EF794830093393C /* Debug */,
+				813335401EF794830093393C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		813335411EF794830093393C /* Build configuration list for PBXNativeTarget "PayPalTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				813335421EF794830093393C /* Debug */,
+				813335431EF794830093393C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 813335061EF794830093393C /* Project object */;
+}
